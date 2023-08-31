@@ -1,12 +1,13 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/Posture_sensor.jpg
 title: "Postural Monitoring Brace"
 date: 2021-04-01
 published: true
 labels:
   - Arduino
+  - C++
   - Build
 summary: "A wearable digital posture monitor I developed for my STEM capstone project."
 ---
