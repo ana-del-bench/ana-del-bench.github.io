@@ -12,7 +12,7 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/javascript_symbol.png">
 
-Generally speaking, my favorite programming language is just whichever language I’m most familiar with at the moment. This may or may not be a result of the fact that, the more you learn about something, the easier it is to appreciate. However, while correlation is not causation, I would like to reference the fact that my experience with computer science professors has commonly been that they advocate whatever language they teach with, as the superior one.
+Generally speaking, my favorite programming language is just whichever language I’m most familiar with at the moment. Sort of like a parent who refuses to pick a favorite, I don't think I'll ever be able to definitively choose one. This may or may not be a result of the fact that, the more you learn about something, the easier it is to appreciate. However, while correlation is not causation, I would like to mention that my experience with computer science professors has commonly been that they advocate whatever language they teach with as the superior one.
 
 ## Learning New Programming Languages
 
