@@ -14,13 +14,13 @@ labels:
 
 Generally speaking, my favorite programming language is just whichever language I’m most familiar with at the moment. This may or may not be a result of the fact that, the more you learn about something, the easier it is to appreciate. However, while correlation is not causation, I would like to reference the fact that my experience with computer science professors has commonly been that they advocate whatever language they teach with, as the superior one.
 
-##Learning New Programming Languages
+## Learning New Programming Languages
 
 I’d liken my first experiences with learning about programming to being taught how to swim –by being thrown into the deep end of an olympic swimming pool. A method that, while stressful, was effective and an overall positive experience. On the other hand, the experience I’ve had learning in more formal settings has been much more gradual. To continue the swimming analogy, one can consider it akin to being thrown into a kiddie pool to begin with, and then, as you get better at swimming you’re thrown into progressively larger and deeper bodies of water. 
 
 Not only does this fit the structure of most online coding programs (where concepts are introduced in a progressively more complex manner), this also fits my experience so far with the “athletic software engineering” learning approach used in this class. The practice exercises provide ample motivation (i.e. adrenaline) to learn the Javascript language, as well as practice how to use it for progressively more complex projects. Coincidentally, in the case of athletic software engineering, the adrenaline of trying to finish a task correctly under a time limit just so happens to mirror (on a smaller scale) the adrenaline that comes with suddenly finding yourself in a body of water when you can’t swim. Fortunately for me (or unfortunately depending on your views on swimming), learning Javascript seems to be much more intuitive to learn than buoyancy was.
 
-##Reflecting On Javascript
+## Reflecting On Javascript
 
 Would I currently consider Javascript to be my favorite language? No. Will it be by the end of the semester? Probably. As I said, it’s far easier to grow fond of something that you’re interacting with everyday. However, having never used Javascript prior to this semester, I did find myself often questioning how Javascript can allow so many functions that are forbidden in so many other languages. Being able to use multiple data types with a single array or being able to pass a variable amount of arguments into a function is (in gen-z terms) wild.
 
