@@ -14,7 +14,7 @@ summary: "A wearable digital posture monitor I developed for my STEM capstone pr
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/posture_monitor/monitor_whole.PNG" class="img-thumbnail" >
+  <img width="200px" src="../img/posture_monitor/monitor.png" class="img-thumbnail" >
   <img width="200px" src="../img/posture_monitor/sensor_closed.png" class="img-thumbnail" >
   <img width="200px" src="../img/posture_monitor/sensor_closeup.png" class="img-thumbnail" >
 </div>
