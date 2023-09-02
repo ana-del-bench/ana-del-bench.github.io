@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Posture_sensor.jpg
+image: img/posture_monitor/sensor_closeup.png
 title: "Postural Monitoring Device"
 date: 2021
 published: true
@@ -14,7 +14,9 @@ summary: "A wearable digital posture monitor I developed for my STEM capstone pr
 ---
 
 <div class="text-center p-4">
-
+  <img width="200px" src="../img/posture_monitor/monitor_whole.PNG" class="img-thumbnail" >
+  <img width="200px" src="../img/posture_monitor/sensor_closed.png" class="img-thumbnail" >
+  <img width="200px" src="../img/posture_monitor/sensor_closeup.png" class="img-thumbnail" >
 </div>
 
 The goal of this capstone project was to develop a wearable device specifically for dancers as a way to get digital feedback on proper the alignment technique needed for more technical forms of dancing like ballet.

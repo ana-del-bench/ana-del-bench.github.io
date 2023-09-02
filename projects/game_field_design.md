@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-robot.png
+image: img/field_design/2445 Compact Cleanup Field.PNG
 title: "Game Field Design"
 date: 2021
 published: true
@@ -13,9 +13,9 @@ summary: "My team designed and developed a functioning 3D mock-up of a game fiel
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/field_design/2445 Compact Cleanup Field.PNG" class="img-thumbnail" >
+  <img width="200px" src="../img/field_design/bridge_ortho.PNG" class="img-thumbnail" >
+  <img width="200px" src="../img/field_design/bridge_side.PNG" class="img-thumbnail" >
 </div>
 
 My team competed in a game field design challenge where the objective was to design a game, along with a 3D model of an accompanying playing field for future challenges for the robotics organization FRC.
@@ -25,6 +25,6 @@ As a team leader, I was in charge of organizing my teams member's as we designed
 Below are some of the official schematics from the design process of the one of the central field elements, the bridge.
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/field_design/bridge_schem.PNG" class="img-thumbnail" >
+  <img width="200px" src="../img/field_design/Field Sketch.PNG" class="img-thumbnail" >
 </div>
