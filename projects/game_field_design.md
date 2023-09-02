@@ -9,7 +9,7 @@ labels:
   - 3D Modeling
   - Game Design
   - Tinkercad
-summary: "My team designed and developed a functioning 3D mock-up of a game field proposal of future robotics competitions."
+summary: "My team designed and I developed a functioning 3D mock-up of a game field proposal of future robotics competitions."
 ---
 
 <div class="text-center p-4">
