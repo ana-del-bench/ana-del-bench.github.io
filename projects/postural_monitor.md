@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/posture_monitor/sensor_closeup.png
+image: img/posture_monitor/sensor_closeup_thumb.png
 title: "Postural Monitoring Device"
 date: 2021
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cave_model/entrance_cam.jpg
+image: img/cave_model/entrance_cam_thumb.jpg
 title: "3D Cave Environment Model"
 date: 2023
 published: true

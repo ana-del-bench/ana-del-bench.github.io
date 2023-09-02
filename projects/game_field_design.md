@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/field_design/2445 Compact Cleanup Field.PNG
+image: img/field_design/field_sketch_thumb.PNG
 title: "Game Field Design"
 date: 2021
 published: true
