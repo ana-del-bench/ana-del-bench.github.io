@@ -17,6 +17,7 @@ summary: "A 3D game environment developed for a 3D animation class project emula
   <img width="200px" src="../img/cave_model/flora_cam_day.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/cave_model/hallway_cam_day.jpg" class="img-thumbnail" >
   <img width="200px" src="../img/cave_model/book_cam.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/cave_model/entrance_cam.jpg" class="img-thumbnail" >
 </div>
 
 This assignment was to create a virtual environment from scratch using the Maya software.
