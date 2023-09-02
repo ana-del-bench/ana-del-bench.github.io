@@ -14,7 +14,6 @@ summary: "A wearable digital posture monitor I developed for my STEM capstone pr
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/posture_monitor/monitor.png" class="img-thumbnail" >
   <img width="200px" src="../img/posture_monitor/sensor_closed.png" class="img-thumbnail" >
   <img width="200px" src="../img/posture_monitor/sensor_closeup.png" class="img-thumbnail" >
 </div>
@@ -22,6 +21,10 @@ summary: "A wearable digital posture monitor I developed for my STEM capstone pr
 The goal of this capstone project was to develop a wearable device specifically for dancers as a way to get digital feedback on proper the alignment technique needed for more technical forms of dancing like ballet.
 
 This was an independent STEM capstone project that I designed using CAD modeling, programming, and circuitry skills to connect a system of gyro sensors and small motors used to create vibrations.
+
+<div class="text-center p-4">
+    <img width="200px" src="../img/posture_monitor/monitor.png" class="img-thumbnail" >
+</div>
 
 The premise of the design was for the gyro sensors (used to collect movement and and rotation data) to continuously track movement and keep track of their positioning in relation to the other gyro sensors in the network. When the readings were determined to be "out-of alignment" with each other the small motors would vibrate to alert the wearer.
 
