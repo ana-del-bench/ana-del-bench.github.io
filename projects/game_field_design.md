@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/field_design/field_sketch_thumb.PNG
+image: img/field_design/field_vector_thumb.PNG
 title: "Game Field Design"
 date: 2021
 published: true
