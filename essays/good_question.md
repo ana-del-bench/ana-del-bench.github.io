@@ -17,6 +17,9 @@ labels:
 
 Adding your question to an online forum as massive and well-known as StackOverflow can be daunting. However, if you've decided to brave that front, there’s an article by programmers Eric S.Raymond and Rick Moen called "[How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html#keepcool)". This article details the do’s-and-dont’s of formatting a question when seeking advice in online forums and is a very good document to reference if you're planning to seek help from the internet masses. Skills like these can determine whether or not you actually get help, and whether or not that help is actually useful to you. It’s important to know how to best help the people trying to help you. That way, the quality of the experience raises for everyone involved.
 
+
+
+
 ## Good Questions vs Bad Questions
 
 When a question is unclear or poorly formatted it can lead to instances like this. The subject header of the question is "[Can anybody tell me why this is happening in c language](https://stackoverflow.com/questions/46015068/can-anybody-tell-me-why-this-is-happening-in-c-language)", with no further details about their problem or question.  As for the question itself, the viewer is provided two simple functions written in C that differ slightly from each other but generally do the exact same operation. 

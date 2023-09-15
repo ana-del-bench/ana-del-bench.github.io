@@ -4,7 +4,7 @@
     "label": "Student",
     "picture": "https://github.com/ana-del-bench.png",
     "email": "adel21@hawaii.edu",
-    "phone": "808-439-2944",
+    "phone": "",
     "website": "https://ana-del-bench.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
     "location": { "address": "", "postalCode": "96707", "city": "Kapolei", "countryCode": "USA", "region": "Hawaii" },
@@ -26,7 +26,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "IntelliJ", "Git/GitHub", "g++", "Maya", "Unity" ]
     }
   ],
   "education": [
@@ -35,8 +35,8 @@
       "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2021-08-16",
-      "endDate": "(expected Spring, 2025)",
-      "courses": [
+      "endDate": "Spring, 2025 (exp)",
+      "courses": [ "Program Structure", "Intro to 3D Computer Animation", "Discrete Mathematics 1 & 2", "Algorithms"
       ]
     }
   ],
@@ -50,33 +50,6 @@
       "summary": "Student web developer",
       "highlights": [
         "Maintain, update, and oversee official UHM ITS website"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
