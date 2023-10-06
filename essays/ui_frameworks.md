@@ -17,13 +17,13 @@ The drawbacks that come with both UI Frameworks and high-level languages are als
 Despite this, some people have managed to stretch the limits of Bootstrap very far. Take the 
 [Wokine](https://www.wokine.com/en/) website for example:
 
-<img width="300px" class="rounded float-center pe-4" src="../img/ui_frameworks/wokine_capture.JPG">
+<img width="600px" class="pe-4" src="../img/ui_frameworks/wokine_capture.JPG" style="display: block; margin-left: auto; margin-right: auto; border-radius: 6px;">
 
 They’ve taken full advantage of the dynamic and responsive features made accessible through Bootstrap.
 
 On the other hand, complex websites with specialized functionality like [GitHub](https://github.com/) do not rely on Frameworks:
 
-<img width="300px" class="rounded float-center pe-4" src="../img/ui_frameworks/git_capture.JPG">
+<img width="600px" class="rounded pe-4" src="../img/ui_frameworks/git_capture.JPG" style="display: block; margin-left: auto; margin-right: auto; border-radius: 6px;">
 
 The customization levels needed for a website with a complexity like GitHub are easier to achieve by working at ‘lower levels’ where it’s easier to adjust the exact features/functions needed without a framework getting in the way. Typically, programmers start to face issues like this further on into their career when their projects begin to ‘outgrow’ the restrictions of a framework like Bootstrap. However, a beginner looking for simpler designs shouldn’t run into such a problem.
 
