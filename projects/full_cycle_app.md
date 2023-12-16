@@ -13,9 +13,9 @@ labels:
 summary: "Worked with a team of other students to develop a mobile-compatible web-app for the customers of a reusable container business."
 ---
 
-<img width="500px" class="pe-4" src="../img/full_cycle_app/home_page.PNG" style="display: block; margin-left: auto; margin-right: auto; border-radius: 6px; border-style: solid; border-width: thin; margin-top: 10px">
+<img width="600px" class="pe-4" src="../img/full_cycle_app/home_page.PNG" style="display: block; margin-left: auto; margin-right: auto; border-radius: 6px; border-style: solid; border-width: thin; margin-top: 10px">
 
-<img width="500px" class="pe-4" src="../img/full_cycle_app/admin_history.PNG" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px; border-radius: 6px; border-style: solid; border-width: thin;">
+<img width="600px" class="pe-4" src="../img/full_cycle_app/admin_history.PNG" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px; border-radius: 6px; border-style: solid; border-width: thin;">
 
 
 
