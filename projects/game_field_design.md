@@ -4,7 +4,7 @@ type: project
 image: img/field_design/field_vector_thumb.PNG
 title: "Game Field Design"
 date: 2021
-published: true
+published: false
 labels:
   - 3D Modeling
   - Game Design

@@ -4,7 +4,7 @@ type: essay
 title: "I Have No Favorite Child"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-30
-published: true
+published: false
 labels:
   - Javascript
   - Athletic Software Egineering

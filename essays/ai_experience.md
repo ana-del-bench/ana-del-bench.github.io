@@ -4,7 +4,7 @@ type: essay
 title: "ChatGPT Could've Written This For Me"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-21
-published: true
+published: false
 labels:
   - AI
   - Software Engineering
