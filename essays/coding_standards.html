@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Clean Code Isn't Just Pretty | Anastasia del Banco | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/ana-del-bench.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anastasia del Banco | Professional Portfolio">
+    <meta property="og:url" content="https://ana-del-bench.github.io/essays/coding_standards.html">
+    <meta property="og:title" content="Clean Code Isn't Just Pretty | Anastasia del Banco | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/ana-del-bench.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Clean Code Isn't Just Pretty | Anastasia del Banco | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anastasia del Banco</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Clean Code Isn't Just Pretty</h1>
+  <span class="date">22 Sep 2023</span>
+  <hr>
+  <h2 id="why-that-green-checkmark-is-so-satisfying">Why That Green Checkmark is So Satisfying</h2>
+
+<p>There comes a level of satisfaction that comes with clean code. However, that’s something that tends to go out the window when faced with a time limit or when focused on a tricky problem. The issue with this is that those scenarios often rely on code that’s easy to read and look back on. This is where tools like ESLint come in handy. Having something that will consistently keep you in check is a great way to make sure that your code is formatted well as you’re typing it (as opposed to going back and having to fix everything while debugging). There is a sense of satisfaction that comes with finishing a project and seeing that green checkmark in your editor. That checkmark isn’t only indicative of pleasing aesthetics. Given that the code works, it’s also an assurance that anybody who looks at it in the future will be able to understand what you accomplished and how you did it. In my experience, enforcing coding standards like this is a great way to develop good habits that will carry onto future projects.</p>
+
+<h2 id="no-clean-code-is-the-same">No Clean Code Is The Same</h2>
+
+<p>With coding standards differing between environments, sometimes practices may be situation-specific but there are certain overarching standards that pretty much everyone follows. For instance, one of my past professors required very specific formatting when it came to projects. Each function had to be preceded by (truly) a paragraph detailing various aspects of each function, each indentation was to be done with exactly 5 spaces instead of a tab, etcetera. While adding notation to the extent that was required in that class may seem excessive anywhere else, it <em>is</em> a universal standard to include the proper documentation necessary to clearly convey the important aspects of any functions. The same goes for indentation, while 5 spaces isn’t exactly the norm, proper indentation in general is still a very useful habit to form along with others like efficient naming conventions or proper spacing between segments that make code appreciably cleaner and more efficient for future viewers.</p>
+
+<p>In certain cases these coding standards, while not essential in one language, can become imperative for another. For instance, while Javascript doesn’t <em>need</em> a semicolon at the end of every line of code, maintaining such a habit could prove useful when transitioning to a language like Java that does require semicolons.</p>
+
+<p>This Javascript code is <em>technically</em> fine:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">function</span> <span class="nf">helloWorld</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">console</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="err">“</span><span class="n">Hello</span> <span class="n">World</span><span class="err">”</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This Java code is not:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="kt">void</span> <span class="nf">helloWorld</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">system</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="err">“</span><span class="n">Hello</span> <span class="n">World</span><span class="err">”</span><span class="p">)</span>		<span class="c1">//lack of semicolon will cause an error</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The same thing applies to indentation, while indentation errors won’t cause any problems when using languages like Java, it very much will cause errors when using Python.</p>
+
+<p>This Java code is <em>technically</em> fine:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="kt">void</span> <span class="nf">helloWorld</span><span class="p">()</span> <span class="p">{</span>
+<span class="n">system</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="err">“</span><span class="n">Hello</span> <span class="n">World</span><span class="err">”</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This Python code is not:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">def</span> <span class="n">helloWorld</span><span class="p">()</span><span class="o">:</span>
+<span class="n">print</span><span class="p">(</span><span class="err">“</span><span class="n">Hello</span> <span class="n">World</span><span class="err">”</span><span class="p">)</span>		<span class="c1">//improper indentation will cause an error</span>
+</code></pre></div></div>
+
+<p>Maintaining proper formatting habits (at least where applicable) not only helps to make your overall code more consistent and easy to understand, it can also save you some debugging stress in the future.</p>
+
+<h2 id="in-conclusion">In Conclusion</h2>
+
+<p>Holding oneself accountable when it comes to proper coding standards is an extremely beneficial practice, not only for personal benefit but also for anybody who you collaborate with in the future. There are certain practices that remain universal for documentation and, even through the various workplaces you may experience with different standards, having a good foundation of coding habits has the added benefit of making it easier to adapt to these changes. The advantages are clear, and using tools like ESLint makes it even easier to maintain these standards amongst situations where proper documentation often slips to the bottom of the priority list.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

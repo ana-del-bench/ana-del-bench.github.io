@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="How To Be Efficiently Confused | Anastasia del Banco | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/ana-del-bench.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anastasia del Banco | Professional Portfolio">
+    <meta property="og:url" content="https://ana-del-bench.github.io/essays/good_question.html">
+    <meta property="og:title" content="How To Be Efficiently Confused | Anastasia del Banco | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/ana-del-bench.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>How To Be Efficiently Confused | Anastasia del Banco | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anastasia del Banco</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">How To Be Efficiently Confused</h1>
+  <span class="date">08 Sep 2023</span>
+  <hr>
+  <p><img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/smart_question_meme.jpg" /></p>
+
+<h2 id="online-forums-are-intimidating">Online Forums Are Intimidating</h2>
+
+<p>Adding your question to an online forum as massive and well-known as StackOverflow can be daunting. However, if you’ve decided to brave that front, there’s an article by programmers Eric S.Raymond and Rick Moen called “<a href="http://www.catb.org/esr/faqs/smart-questions.html#keepcool">How To Ask Questions The Smart Way</a>”. This article details the do’s-and-dont’s of formatting a question when seeking advice in online forums and is a very good document to reference if you’re planning to seek help from the internet masses. Skills like these can determine whether or not you actually get help, and whether or not that help is actually useful to you. It’s important to know how to best help the people trying to help you. That way, the quality of the experience raises for everyone involved.</p>
+
+<h2 id="good-questions-vs-bad-questions">Good Questions vs Bad Questions</h2>
+
+<p>When a question is unclear or poorly formatted it can lead to instances like this. The subject header of the question is “<a href="https://stackoverflow.com/questions/46015068/can-anybody-tell-me-why-this-is-happening-in-c-language">Can anybody tell me why this is happening in c language</a>”, with no further details about their problem or question.  As for the question itself, the viewer is provided two simple functions written in C that differ slightly from each other but generally do the exact same operation.</p>
+
+<p>This is what the functions looked like, pretty simple right?</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+ <span class="p">{</span>
+     <span class="kt">float</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%f"</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="n">a</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+ <span class="p">}</span>
+</code></pre></div></div>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+ <span class="p">{</span>
+     <span class="kt">float</span> <span class="n">a</span><span class="o">=</span><span class="mi">10</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%f"</span><span class="o">+</span><span class="mi">36</span><span class="p">,</span><span class="n">a</span><span class="p">);</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+ <span class="p">}</span>
+</code></pre></div></div>
+
+<p>However, while the code is simple enough to understand what is happening at a glance, it’s significantly harder to determine what the inquirer was trying to do with these functions. With no other clarification about the problem other than a request for an explanation as to why the two functions have different outputs, anyone trying to help would just be taking a shot at what they think the inquirer needs help with. Which is exactly what happened. Most of the resulting answers include some form of the statement <em>“I’m not sure what you’re trying to accomplish but…”</em>.  As an additional consequence, the answers ended up significantly varying from each other, ranging from compiling errors to more common syntax errors. There were no follow-up responses from the inquirer, and they never accepted an answer, so their true intent remains speculative.</p>
+
+<p>On the other hand, when a question is asked in a more efficient matter, those who try to help will have an easier time formatting their answer because there’s already a mutual understanding of the problem. Take this question with the subject header “<a href="https://stackoverflow.com/questions/2784514/sort-arraylist-of-custom-objects-by-property">Sort ArrayList of custom Objects by property</a>”. The title clearly states the objective that they need assistance with, and the question tags include further elaboration (<em>“comparator”, “java”, “sorting”, “date”</em>) on the issue. In this instance, the inquirer was trying to sort an array of custom Objects by their date. The description lead with their prior research on sorting arrays, as well as their subsequent attempts to find a solution through their own research. The inquirer had visibly tried to research a solution to the best of their abilities and had even made some progress on the issue but couldn’t get past a certain point. They additionally made the effort to suggest possible solutions that they had thought of, but didn’t know how to implement. This effort especially made it easier for the responder to provide a concise solution, filling in the gaps that the inquirer hadn’t been able to fill with their research.</p>
+
+<p>Inquirer’s proposed solution:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">CustomComparator</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="n">boolean</span> <span class="n">compare</span><span class="p">(</span><span class="n">Object</span> <span class="n">object1</span><span class="p">,</span> <span class="n">Object</span> <span class="n">object2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">object1</span><span class="p">.</span><span class="n">getStartDate</span><span class="p">().</span><span class="n">before</span><span class="p">(</span><span class="n">object2</span><span class="p">.</span><span class="n">getStartDate</span><span class="p">());</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Responder’s code:</p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">CustomComparator</span> <span class="n">implements</span> <span class="n">Comparator</span><span class="o">&lt;</span><span class="n">MyObject</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="err">@</span><span class="n">Override</span>
+    <span class="k">public</span> <span class="kt">int</span> <span class="n">compare</span><span class="p">(</span><span class="n">MyObject</span> <span class="n">o1</span><span class="p">,</span> <span class="n">MyObject</span> <span class="n">o2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">o1</span><span class="p">.</span><span class="n">getStartDate</span><span class="p">().</span><span class="n">compareTo</span><span class="p">(</span><span class="n">o2</span><span class="p">.</span><span class="n">getStartDate</span><span class="p">());</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>As you can see, the responder was able to, quite literally, fill in the gaps with the needed code for a custom comparator function (exactly what was needed to be able to compare their Objects by date) that the inquirer had mentioned wanting to try. All of this was done without wasting time doing guesswork. As a whole, the question ends up being a very useful resource as both the questions and answer work together to create an easy-to-follow guide for solving similar problems.</p>
+
+<h2 id="in-conclusion">In Conclusion…</h2>
+
+<p>Being considerate towards the people willing to help you benefits everyone in the long run. When it comes to asking smart questions, it’s especially important to take into consideration the things to avoid like providing vague descriptions or code, entitled behavior, etc. (i.e. be nice to the people trying to help you). However, it’s also noteworthy that, as I sorted through StackOverflow, a good portion of the highest ranked questions were what the authors of the smart-question-guide may consider ‘stupid’ questions. So, while it’s definitely still a good idea to do your own research and check to see if somebody else already asked/answered your question, in the words of many of many ICS professors, don’t be afraid to ask your ‘dumb’ questions, because there’s a good chance everybody else has the same question and just doesn’t want to ask. (Note: this sentiment is most applicable to sites like StackOverflow that are very beginner-friendly) A simple question could still end up being really beneficial for you and many others; it might also save someone a few hours of sifting through convoluted documentation. Besides, I’ve found that a lot of people (including programmers) are more than willing to flex their knowledge and explain the simpler concepts just for the satisfaction that all the information they’ve accumulated over the years is being put to good use.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

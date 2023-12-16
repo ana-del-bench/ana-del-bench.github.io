@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Anastasia del Banco",
+    "label": "Student",
+    "picture": "https://github.com/ana-del-bench.png",
+    "email": "adel21@hawaii.edu",
+    "phone": "",
+    "website": "https://ana-del-bench.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96707", "city": "Kapolei", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "ana-del-bench", "url": "http://github.com/ana-del-bench" },
+      { "network": "linkedin", "username": "anastasia-del-banco", "url": "https://www.linkedin.com/in/anastasia-del-banco/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Development" },
+    { "name": "Game Development" },
+    { "name": "Robotics" },
+    { "name": "3D Graphics/Animation" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "IntelliJ", "Git/GitHub", "g++", "Maya", "Unity" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2021-08-16",
+      "endDate": "2025-05",
+      "courses": [ "Program Structure", "Intro to 3D Computer Animation", "Discrete Mathematics 1 & 2", "Algorithms"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Information and Technology Services",
+      "position": "Java Web Programmer I",
+      "website": "",
+      "startDate": "2021-06",
+      "endDate": "2022-01",
+      "summary": "Student web developer",
+      "highlights": [
+        "Maintain, update, and oversee official UHM ITS website"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "STEM Honors",
+      "date": "2021",
+      "awarder": "Kapolei High School",
+      "summary": "Honor awarded to students who have completed a satisfactory STEM Capstone independent research project."
+    },
+    {
+      "title": "Seal of Spanish Biliteracy",
+      "date": "2021",
+      "awarder": "Kapolei High School",
+      "summary": "Honor awarded to students who have tested to meet the requirements of literacy in reading and writing in a chosen language."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
